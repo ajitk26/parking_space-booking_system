@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.parking-root{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.p-heading {
+    font-size: 45px;
+    margin: 2rem auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.p-background {
+    width: 100%;
+    height: 100%;
+}
+.p-content {
+    display: flex;
+    position: absolute;
+    top: 4rem;
+    width: 60%;
+    border-radius: 3.5rem;
+    margin: auto;
+    box-shadow:  0 0 15px gray;
+    background-color: white;
+}
+
+.p-form {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.available-slots {
+    display: flex;
+    width: 70%;
+    height: max-content;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+
+.choose-vehicle {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.select {
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0 1rem;
+}
+
+.date-time {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inp {
+    width: 30%;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+
+.inp:hover {
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.result {
+    width: 90%;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.btn-root {
+    display: flex;
+    justify-content: space-between;
+    width: 16rem;
+}
+
+.inputHour{
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+
+
+/**************************SelectCity***************************/
+
+.selectCity{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap:20px
+}
+
+
+/***************parkingList****************************/
+
+.parkingList{
+    display: flex;
+    flex-direction: row;
+}
+
+.parkingCard {
+    width: 34rem;
+    height: 18rem;
+    padding: 1rem;
+    margin:1rem;
+    border-radius:1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 20px 53px -60px #000000;
+    transition: 0.8s;
+
+    
+}
+.parkingCard:hover {
+    box-shadow: 4px 4px 10px 2px rgb(139, 123, 229);
+    transition: box-shadow 500ms ease-in;
+
+}
+
+.parkingListContainer{
+    /* margin-left: 1rem; */
+    display: grid;
+    grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+    grid-template-columns: 40rem 40rem 40rem;
+    row-gap: 15rem;
+    width: 100%;
+
+}
+
+.forgetPass{
+    display: flex;
+    margin-left: 10rem;
+    gap:15px
+}
+
